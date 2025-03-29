@@ -5,9 +5,10 @@ Project consists of two modules:
 ## Frontend
 Frontend part is built with react framework, contains a single page with one table displaying results from the api GET call.
 Potential extensions:
-- extract fetch method to separate service, not in the App file
-- extract table to separate component
-- extract row entry to reusable component that could be used accross numerous other tables
+- DONE: extract fetch method to separate service, not in the App file
+- DONE: extract table to separate component
+- DONE: extract row entry to reusable component that could be used accross numerous other tables
+- make row and table components more generic
 - consider introducing axios approach instead of fetch
 - introduce authentication to the server call
 - play with build options (for example add lint)
