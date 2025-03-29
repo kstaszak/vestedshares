@@ -1,5 +1,8 @@
 # vestedshares
 
+![
+    
+](docs/image.png)
 Project consists of two modules:
 
 ## Frontend
