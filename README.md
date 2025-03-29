@@ -23,3 +23,12 @@ Potential extensions:
 - play with the structure of the project to extract the routing
 - introduce zod validation
 
+
+## Some pre dev comments
+While following steps from instruction I came across couple gotchas:
+- during installation of packages I have to take care of Execution Policy settings in Powershell
+- it looks as if there were some changes in package names since the instruction was created, I was not able to install npm:@tailwindcss/vitedeno, had to go with npm:@tailwindcss/vite instead
+- had to ramp up on Hono a little, bit, this one was interesting read https://hono.dev/docs/api/context
+- had to take care of CORS
+
+
